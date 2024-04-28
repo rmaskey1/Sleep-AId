@@ -5,8 +5,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #6A5ACD;
+    background: linear-gradient(180deg, #432794, #0B0821);
     color: #FFFFFF;
+    height: 100vh;
+    width: 100vw;
 }
 
 .container {
