@@ -1,0 +1,41 @@
+.centered-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center vertically on the screen */
+    height: 100vh; /* Take up full height of the viewport */
+  }
+
+  .song-info {
+    display: flex;
+    align-items: center;
+  }
+
+  .song-info h2 {
+    margin-right: 10px; /* Add space between song name title and like button */
+  }
+
+  .progress-bar {
+    width: 80%; /* Adjust as needed */
+    margin-bottom: 20px; /* Add spacing between progress bar and buttons */
+  }
+
+  input[type="range"] {
+    width: 100%; /* Set the width of the slider to 100% */
+  }
+
+  .controls {
+    display: flex;
+    justify-content: space-between; /* Add space between buttons */
+    width: 350px; /* Adjust as needed */
+  }
+  .button-icon {
+    background-color: transparent; /* Remove background color */
+    color:antiquewhite;
+    border: none;
+    padding: 0;
+    transition: color 0.3s;
+  }
+  .button-icon:hover {
+    color: #1a1919;
+}
